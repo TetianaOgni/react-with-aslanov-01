@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+// eslint-disable-next-line
 import { theme } from 'styles';
 
 export const BaseTable = styled.table`
