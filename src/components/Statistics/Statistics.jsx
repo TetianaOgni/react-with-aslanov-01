@@ -15,7 +15,7 @@ export const Statistics = ({title, stats}) => {
   
   return (
     <>
-     <StatisticTitle>{title}</StatisticTitle>
+     {title && <StatisticTitle>{title}</StatisticTitle>}
 
 <StatisticsList>
   {stats.map(({title, total, id}, index)=> <StatisticItem key={id} title={title} total={total} icon={icons[index]}/> )}
